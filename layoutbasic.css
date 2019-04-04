@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 22, 2018, 9:08:56 AM
+    Author     : Oladokun Ekundayo
+*/
+
+html,body,h1,h2,h3,h4,ul,li,div,span, p {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #333;
+    padding:0;
+    margin:0;
+    line-height: 24px;
+}
+h1{
+    font-size: 36px;
+    padding: 30px 0px;
+}
+h2{
+    font-size: 24px;
+    padding-bottom: 15px;
+   
+}
+h3{
+    font-size: 14px;
+    padding-bottom: 15px;
+    
+    font-weight: bold;
+    
+}
+h4{
+    font-size: 16px;
+    padding: 20px 0px;
+    
+}
+#top-fixed-nav{
+    position: fixed;
+    background:#212120;
+    top:0;
+    right:0;
+    
+    padding: 10px;
+    border-radius: 7px;
+}
+#top-fixed-nav *{
+    color: white;
+}
+ul, li{
+    display: inline;
+    padding: 10px 20px;
+}
+.header-wrap{
+    background: #212120;
+    padding: 50px 150px;
+   
+    margin:0 auto;
+    
+}
+.header-wrap *{
+    color: #fff;
+    }
+
+header h1{
+    display: inline;
+    background: cadetblue;
+    padding: 20px;
+    border-radius: 7px;
+    font-size: 30px;
+}
+header nav{
+    display: inline;
+}
+
+.page-wrap{
+    max-width: 950px;
+    margin: 0 auto;
+}
+.column{
+    display: inline;
+    text-align: center;
+    
+}
+.column-wrap{
+    border:solid 2px grey;
+    border-radius: 5px;
+    margin: 10px 10px;
+    padding: 10px 15px;
+    max-width: 29%;
+}
+
+.img-wrap *{
+    max-width: 240px;
+   
+}
+#main-content{
+    padding-top: 15px;
+}
+#main-content *{
+    display: inline-block;
+    padding: 5px;
+    
+}
+
+#main-footer{
+    text-align:center;
+     height: 500px;
+     margin-bottom: 50px;
+     padding-top: 500px;
+     padding-bottom: 0px;
+     color:whitesmoke;
+       background: url("http://www.vmi.edu/media/site-assets/images/background-images/ford-background-4.jpg") no-repeat 50% 0px;
+}
+
+
+#main-footer a:link{
+    color: yellow;
+    
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer{
+    background: #212120;
+    padding: 20px 350px;
+   
+    margin: auto;
+    
+}
+footer *{
+    color: #fff;
+    text-align: center;
+    }
+a:link {
+    text-decoration: none;
+}
+.desc a:link{
+    color: yellow;
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+.title{
+    margin: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+    padding-top: 200px;
+}
+#main-footer .desc{
+    font-size: 14px;
+    color:whitesmoke;
+    
+}
